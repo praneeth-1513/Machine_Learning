@@ -1,1 +1,49 @@
 
+# Credit Card Fraud Detection
+
+## Overview
+This project focuses on building a **Credit Card Fraud Detection** system using machine learning techniques. Fraud detection is critical in modern financial systems as it helps mitigate losses for businesses and users by identifying fraudulent transactions in real-time.
+
+The dataset used for this project contains credit card transactions that are labeled as fraudulent or legitimate. Various machine learning algorithms are employed to detect anomalies and predict fraudulent transactions effectively.
+
+## Project Structure
+This repository includes the following files:
+
+- `Credit_Card_Fraud_Detection.ipynb`: The Jupyter notebook that contains the code for data preprocessing, model building, and evaluation of various machine learning models to detect fraudulent transactions.
+- `README.md`: A description of the project (this file).
+
+## Dataset
+The dataset used for this project consists of anonymized credit card transactions with labeled fraudulent and legitimate transactions. It includes features such as transaction amounts, time, and various engineered features (V1, V2, ..., V28).
+
+## Machine Learning Techniques
+The following machine learning algorithms are implemented and compared in this project:
+
+1. **Logistic Regression**: A simple and interpretable model for binary classification.
+2. **Random Forest Classifier**: A powerful ensemble learning method that uses decision trees.
+3. **Support Vector Machines (SVM)**: A robust classifier for high-dimensional spaces.
+4. **XGBoost**: A gradient boosting algorithm that often provides state-of-the-art performance for classification tasks.
+5. **Neural Networks**: A deep learning model is also explored for fraud detection.
+
+## Evaluation Metrics
+Since credit card fraud detection is an imbalanced classification problem, the following metrics are used to evaluate model performance:
+
+- **Accuracy**: The percentage of correctly predicted transactions (fraudulent or legitimate).
+- **Precision**: The proportion of predicted fraud cases that are actual frauds.
+- **Recall**: The proportion of actual fraud cases that are correctly predicted.
+- **F1-Score**: The harmonic mean of precision and recall, used for overall evaluation.
+- **AUC-ROC**: Area Under the ROC Curve, which evaluates the true positive rate against the false positive rate.
+
+
+
+## Dependencies
+Make sure you have the following dependencies installed:
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- TensorFlow/Keras (if using neural networks)
+  
+
+
